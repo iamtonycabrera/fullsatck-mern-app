@@ -1,12 +1,20 @@
 import express from "express";
-import { bookVisit, createUser } from "../controllers/userController.js";
+import {
+  addToFav,
+  allBookings,
+  allFavorites,
+  bookVisit,
+  cancelBooking,
+  createUser,
+} from "../controllers/userController.js";
 
 const router = express.Router();
 
 router.post("/register", createUser);
 router.post("/bookVisit/:id", bookVisit);
-
-// TODO
 router.post("/allBookings", allBookings);
+router.post("/cancelBooking/:id", cancelBooking);
+router.post("/addToFav/:rid", addToFav);
+router.post("/allFavorites", allFavorites);
 
 export { router as userRoute };
