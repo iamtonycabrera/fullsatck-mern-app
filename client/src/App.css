@@ -1,0 +1,44 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+.App>:nth-child(1){
+    background: #00555B;
+    position: relative;
+    height: 100vh;
+}
+
+.green-gradient{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background: #56bfb37a;
+    filter: blur(100px);
+    border-radius: 100px;
+}
+
+.scroll-to-top{
+    border-radius: 5px !important;
+    padding: 7px;
+    text-align: center;
+    bottom: 30px !important;
+}
+
+.scroll-to-top svg{
+    fill: var(--orange);
+    width: 25px !important;
+    height: 25px !important;
+}
+
+@media (max-width: 640px) {
+    .App>:nth-child(1){
+        height: 100%;
+    }
+}
+
+@media (max-width: 1072px){
+    .App>:nth-child(1){
+        height: 100%;
+    }
+}
