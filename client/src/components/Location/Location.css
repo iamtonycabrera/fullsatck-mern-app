@@ -1,0 +1,30 @@
+.inner-container{
+    background-image: url("../../../public/location-bg.jpg");
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.inner-container .primaryText{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* .inner-container .secondaryText{
+     color: rgba(255, 255, 255, 0.587);
+} */
+
+.inner-container .button{
+    margin-top: 2rem;
+    border: 4px solid var(--orange);
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 300ms ease-in;
+    color: var(--secondary);
+}
+
+.inner-container .button:hover{
+    border: 4px solid var(--orange);
+    background-color: var(--orange);
+    color: white !important;
+}

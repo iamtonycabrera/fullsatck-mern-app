@@ -1,0 +1,12 @@
+.p-wrapper{
+    background: rgb(223, 223, 223);
+}
+
+.p-container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.p-container>img{
+    width: 9rem;
+}

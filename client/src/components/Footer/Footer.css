@@ -1,0 +1,49 @@
+.f-wrapper{
+    background: var(--orange);
+    padding: 40px 0px;
+}
+
+.f-container{
+    justify-content: space-between;
+}
+
+.f-container .secondaryText{
+    color: white;
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px){
+    .f-container{
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .f-container>div{
+        align-items: center !important;
+        text-align: center;
+    }
+
+    /* @media (max-width: 640px){
+        .f-container{
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .f-container>div{
+            align-items: center !important;
+            text-align: center;
+        }
+    } */
+}
